@@ -20,7 +20,7 @@ Questions
 Responses:
 1.	Descriptive statistics, obtained by use of Python 3 in jupyter notebook.
 Top5 ActualSalesValue are all under Organisation ID:228, spread over the sites 1467, 1477 and 1448.
- 
+ [![1.jpg](https://i.postimg.cc/QdWmB680/1.jpg)](https://postimg.cc/cv0w2B8n)
 
 Analysis by OrganisationID
 
