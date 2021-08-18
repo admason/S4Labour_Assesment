@@ -1,6 +1,6 @@
 # S4Labour_Assesment
 Data analyst Assesment
-```S4labour Data Exercise
+S4labour Data Exercise
 Submitted by Adam Mason
 
 Anonymised customer sales data 
@@ -97,6 +97,6 @@ March_2021_CSV
 The following Python code (IPYNB file) was used to extract the Descriptive Statistics:
 S4Labour IPYNB File.
 Or read the code in the S4Labour.PDF.
-All included in the attached file.```
+All included in the attached file.
 
 
