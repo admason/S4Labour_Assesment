@@ -26,25 +26,38 @@ Top5 ActualSalesValue are all under Organisation ID:228, spread over the sites 1
 
 Analysis by OrganisationID
 
+[![2.jpg](https://i.postimg.cc/HnR5dgyH/2.jpg)](https://postimg.cc/dZRDjg6S)
+
  
 The Organisation ID = 228 produced the maximum ActualSalesValue of £93309 at Site_ID 1467, which occurred on 16-March_2019.
 
 Statistical Analysis by Org_ID:
+
+[![3.jpg](https://i.postimg.cc/wjKJr9zQ/3.jpg)](https://postimg.cc/2VwVbRV1)
  
 
 Maximum sales for each Organisation found by the code:
 m=dfAll.groupby('OrganisationID')['ActualSalesValue','tbl_ActualSales.PhysicalSiteID','Type'].max()
 
+[![4.jpg](https://i.postimg.cc/MG5QXRQ9/4.jpg)](https://postimg.cc/FffRBYGS)
  
 
 
 Analysis by Physical site ID:
+
+[![5.jpg](https://i.postimg.cc/9fLDch6S/5.jpg)](https://postimg.cc/5HF4mZNq)
  
 Statistical Analysis by Physical Site_ID:
 (The first 5 rows included here)
+
+[![6.jpg](https://i.postimg.cc/Hnyn07rD/6.jpg)](https://postimg.cc/p5PPRrQq)
+
  
 
 Maximum Sales for each physicalsite ID:
+
+[![7.jpg](https://i.postimg.cc/kgdwL0PK/7.jpg)](https://postimg.cc/N5p1HPMj)
+
  
 The full list can be viewed by using the code:
 n=dfAll.groupby('tbl_ActualSales.PhysicalSiteID')['ActualSalesValue','Type','OrganisationID']
@@ -56,7 +69,7 @@ The basics statistics for the data report that the minimum ActualSalesValue is -
 Could these be due to prepaid booking for accommodation, meals or drinks, for example paid by companies for business visits/events?
 If so, the data could be split into positive Sales, or the absolute value for all ActualSalesValues taken into account.
 
- 
+ [![7.jpg](https://i.postimg.cc/kgdwL0PK/7.jpg)](https://postimg.cc/N5p1HPMj)
 
 
 4, 
